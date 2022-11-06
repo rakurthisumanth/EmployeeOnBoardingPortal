@@ -1,0 +1,43 @@
+@import './Component.css';
+
+
+.warn {
+    color: var(--warnColor);
+    border: 1px solid var(--warnBorder);
+    width: 253;
+    background-color: var(--warnBackground);
+    border-radius: 10px;
+}
+
+span {
+    color: var(--spanColor);
+    font-size: 13px;
+}
+
+.heading {
+    opacity: 1;
+    color: var(--generalValue);
+    font-family: "Inter-Medium";
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.paragraph {
+    font-size: 20px;
+}
+
+.doc {
+    background-color: var(--warnBackground);
+    margin: 2px;
+}
+
+.color-warning {
+    color: var(--orangeColor);
+}
+
+.color-success {
+    color: var(--successColor);
+}

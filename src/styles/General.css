@@ -1,0 +1,52 @@
+@import './Component.css';
+
+.card {
+    width: 90vw;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.card>header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--generalHeader);
+    padding: 10px;
+    border-bottom: 2px solid var(--generalHeaderBorder);
+}
+
+.editIcon {
+    border: 1px solid var(--successColor);
+    padding: 3px;
+    border-radius: 50%;
+    color: var(--successColor);
+}
+
+.plusIcon {
+    color: var(--successColor);
+    box-shadow: 30px 30px 30px var(--plusIconBackground);
+}
+
+.editIcon:hover {
+    cursor: pointer;
+}
+
+.subHead {
+    opacity: 0.5;
+    color: var(--subHeading);
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.value {
+    opacity: 1;
+    color: var(--generalValue);
+    font-family: "Inter-Medium";
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+}

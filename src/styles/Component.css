@@ -1,0 +1,16 @@
+:root {
+    --tabsBg: RGBA(44, 146, 115, 0.1);
+    --tabsColor: RGB(44, 146, 115);
+    --inactiveTabsColor: RGBA(23, 35, 45, 0.4);
+    --warnColor: RGB(240, 92, 80);
+    --warnBorder: RGB(240, 92, 80);
+    --warnBackground: RGB(255, 244, 241);
+    --spanColor: PR Dark #17232D;
+    --successColor: #2C9273;
+    --orangeColor: #FDA553;
+    --generalHeader: RGBA(249, 250, 251, 0.8);
+    --subHeading: #0B0E1F;
+    --generalHeaderBorder: RGB(234, 237, 240);
+    --generalValue: rgba(11, 14, 31, 1);
+    --plusIconBackground: rgba(44, 146, 115, 0.1);
+}
